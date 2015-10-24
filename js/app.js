@@ -5,7 +5,7 @@ angular.module('myApp', [])
     var pendingTask;
 
     if($scope.search === undefined){
-      $scope.search = "Sherlock Holmes";
+      $scope.search = "Citizen Kane";
       fetch();
     }
 
